@@ -413,10 +413,18 @@ body{
     .cadastrar .conteudo-2 .col-1 input label{
         width: 30px;
     }
+
+    .login input{
+        margin-left: 5%;
+    }
     
     .label-informacao{
         align-self: center;
         height: 25px;
+    }
+
+    .logar .label-informacao{
+        margin-left: -1%;
     }
 
     .label-informacao i{
@@ -475,6 +483,14 @@ body{
         padding-left: 15px;    
     }
 
+    .logar .label-informacao{
+        margin-left: -1%;
+    }
+
+    .cadastrar .label-informacao{
+        margin-right: -4%;
+    }
+
     .label-informacao i{
         font-size: 18px;
         padding-left: 6%;
@@ -524,6 +540,10 @@ body{
 
     .link-social-media:hover{
         font-size: 160%;
+    }
+
+    .logar .label-informacao{
+        margin-left: -1%;
     }
 
 
@@ -633,6 +653,10 @@ body{
         padding: 0 3%;
     }
 
+    .cadastrar .label-informacao{
+        margin-left: -1%;
+    }
+
 }
 
 @media screen and (min-width: 1360px){
@@ -725,6 +749,10 @@ body{
     
     .btn{
         font-size: 140%;
+    }
+
+    .logar .label-informacao{
+        margin-right: -2%;
     }
 
 
