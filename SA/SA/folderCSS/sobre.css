@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: justify;
+}
+
+body{
+    height: 100%;
+    width: 100%;     
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #003620;
+    color: white;
+    height: 280px;
+}
+
+.main{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    font-size: 32px;
+}
+
+.conteudo{
+    color: white;
+    background-color: black;
+    margin-top: 3%;
+    padding: 1%;
+    justify-content: space-between;
+    text-align: justify;
+    border-radius: 2%;
+}
+
+.cor-marca{
+    color: white;
+    background-color: black;
+    margin-top: 3%;
+    padding: 1%;
+    justify-content: space-between;
+    text-align: justify;
+    border-radius: 2%;
+}
+
+.participantes{
+    color: white;   
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 1%;
+    justify-content: space-around;
+
+}
+
+.fotos1{
+    padding:1%;
+}
+
+.fotos{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.david, .ismael, .victor, .guilherme{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    background-color: black;
+    margin: 0.5%;
+    padding: 0.2%;
+    border-radius: 2%;
+}
+.descricao{
+    padding: 1%;
+}
